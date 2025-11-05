@@ -9,33 +9,30 @@
     </head>
     <body>
         <div class="container">
-            <div class="song-info">
-                <div class="song-name"></div>
-                <div class="progress bar">
-                    <div class="fill bar"></div>
+            <div class="player-card">
+                <div class="disk">
+                    <div class="circle"></div><div>
+                        <div id="cover" class="cover"></div>
+                    </div>
                 </div>
-                <div class="time"> 0:00 0:00</div>        
+            <div class="song-info">
+                <div class="artist-name">Artist Name</div>
+                <div class="song-name">Song Name</div>
+                <div class="progress-bar">
+                    <div class="fill-bar"></div>
+                </div>
+                <div class="time"> 
+                    <span class="current-time">0:00</span>
+                    <span class="duration">0:00</span>
+                </div>
             </div>
-            <div class="disk">
-                <div class="circle">
-                <div id="cover" class="cover"></div>
-            </div>
+        </div>
             <div class="controls">
                 <i id="prev" class="fa-solid fa-backward"></i>
                 <i id="play" class="play-btn fa-solid fa-play"></i>
                 <i id="next" class="next-btn fa-solid fa-forward"></i>
-
-
             </div>
         </div>
-
-
-
-
-        
-
         <script src="script.js"></script>
-
-
     </body>
 </html>
