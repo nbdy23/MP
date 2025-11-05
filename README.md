@@ -1,4 +1,4 @@
-* READ ME *
+# READ ME #
 
 web dAPP mini music streaming website
 
